@@ -1,7 +1,7 @@
 {{ $map := .Site.Data.map }}
 {{ $title := $map.title }}
 {{ $description := $map.description }}
-{{- $logoSrc := printf "images/%s" $map.serviceArea | absURL -}}
+{{- $logoSrc := printf "/images/%s" $map.serviceArea | absURL -}}
 
 <section id="map" class="text-center py-5">
   <div class="container">
