@@ -1,0 +1,10 @@
+{
+  "title" : "Welcome to Rosie and Company!",
+  "description" : "Serving Humber Bay / Mystic Pointe / South Etobicoke",
+  "sub" : "Certified / Bonded / Insured",
+  "image" : "cover-photo.jpg",
+  "button" : {
+    "text" : "Send us a message",
+    "href" : "/#contact"
+  }
+}

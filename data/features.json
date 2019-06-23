@@ -1,0 +1,21 @@
+{
+  "title" : "About Us",
+  "description" : " My name is Valerie Capiral, and I am the owner of Rosie and Company. Together with my wonderful team of experienced and trained dog walkers, we are here to take care of your pups!",
+  "content" : [
+    {
+      "icon" : "paw",
+      "title" : "We're Owners Too",
+      "description" : "We're dog owners too, we understand the importance of trusting that your dog is getting the proper amount of daily exercise."
+    },
+    {
+      "icon" : "history",
+      "title" : "Company History",
+      "description" : "We have been serving the Humber Bay area for 3 years, and have grown our business through our reputation for professional service, integrity, and hard work."
+    },
+    {
+      "icon" : "hands-helping",
+      "title" : "Company Goal",
+      "description" : "Our goal at Rosie & Company is to keep your dog healthy and happy. We want to ensure you are worry-free during our walk"
+    }
+  ]  
+}

@@ -1,0 +1,30 @@
+{
+  "brand" : "Sodium Theme",
+  "logo" : "RosieLogo-noCircle.png",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "About Us",
+      "href" : "#features"
+    },
+    {
+      "title" : "Our Rates",
+      "href" : "#pricing"
+    },
+    {
+      "title" : "Team",
+      "href" : "/teampage"
+    },
+    {
+      "title" : "Merchandise",
+      "href" : "https://www.etsy.com/ca/shop/RosieNCompany"
+    },
+    {
+      "title" : "Contact Us",
+      "href" : "#contact"
+    }
+  ]
+}

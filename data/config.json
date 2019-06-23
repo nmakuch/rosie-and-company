@@ -1,0 +1,11 @@
+{
+  "components" : [
+    "cover",
+    "features",
+    "pricing",
+    "map",
+    "advert",
+    "contact"
+  ],
+  "email" : "xxxxxxx@gmail.com"
+}
