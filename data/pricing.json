@@ -1,0 +1,72 @@
+{
+  "title" : "Our Rates",
+  "description" : "All of our rates include HST and insurance coverage. We do not believe in hidden fees!",
+  "content" : [
+    {
+      "title" : "Flexible Walks",
+      "price" : "$18",
+      "features" : [
+        "30 minute session",
+        "Chance of being private",
+        "Chance of being in a group",
+        "Limited to 3 dogs at a time",
+        "Logged walk report"
+      ]
+    },
+    {
+      "title" : "Private Walk (regular)",
+      "price" : "$19",
+      "features" : [
+        "30 minute session",
+        "1:1 walking with your dog",
+        "For dogs that can't be walked in groups",
+        "Logged walk report"
+      ]
+    },
+    {
+      "title" : "Private Walk (Long)",
+      "price" : "$25",
+      "features" : [
+        "45 minute session",
+        "1:1 walking with your dog",
+        "For dogs that can't be walked in groups",
+        "Logged walk report"
+      ]
+    },
+    {
+      "title" : "Group Walk",
+      "price" : "$21",
+      "features" : [
+        "45 minute session",
+        "Other dogs will be present",
+        "Limited to 3 dogs at a time",
+        "Logged walk report"
+      ]
+    },
+    {
+      "title" : "Double walks",
+      "price" : "$28",
+      "features" : [
+        "This is 2 Flexible Walks in one day",
+        "(x2) 30 minute sessions",
+        "Chance of being private",
+        "Chance of being in a group",
+        "Limited to 3 dogs at a time",
+        "Logged walk report"
+      ]
+    },
+    {
+      "title" : "Pee Break/ Feeding",
+      "price" : "$12",
+      "features" : [
+        "Placeholder details",
+        "Placeholder details",
+        "Placeholder details",
+        "Placeholder details",
+        "Placeholder details",
+        "Placeholder details"
+
+      ]
+    }
+  ]
+}

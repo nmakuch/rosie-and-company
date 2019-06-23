@@ -1,0 +1,16 @@
+{{ $advert := .Site.Data.advert }}
+{{ $title := $advert.title }}
+{{ $description := $advert.description }}
+{{- $logoSrc := printf "images/%s" $advert.image | absURL -}}
+
+<section id="map" class="text-center py-5">
+  <div class="container">
+      <h2 class="pt-5 h2">{{ $title }}</h2>
+      <p class="text-muted pb-5">{{ $description }}</p>
+    <div class="row justify-content-md-center">
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12 features">
+            <img src="{{$logoSrc}}" width="80%">
+        </div>
+    </div>
+  </div>
+</section>

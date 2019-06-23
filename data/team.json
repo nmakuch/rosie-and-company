@@ -1,0 +1,33 @@
+{
+  "title" : "Meet the team",
+  "description" : " My name is Valerie Capiral, and I am the owner of Rosie and Company. Together with my wonderful team of experienced and trained dog walkers, we are here to take care of your pups!",
+  "members" : [
+    {
+      "name" : "Valerie Capiral",
+      "description" : "In addition to being the owner of Rosie & Company, Valerie is the owner of an adorable and energetic 5 year old Boston Terrier by the name of... Rosie! A life-long dog owner and lover, Valerie has 5 years of professional dog walking experience, including 3 years in the Humber Bay area.",
+      "avatar" : "ValerieCapiral.jpg"
+    },
+    {
+      "name" : "Anastasia Clarry",
+      "description" : "Anastasia was the first person to join our team, and we could not have hoped for someone better! She is the proud owner of Scout, a 3 year old miniature Aussie, and has years of experience dealing with all kinds of dogs. She has been an excellent addition to the team for almost a year!",
+      "avatar" : "AnastasiaClarry.jpg"
+    },
+    {
+      "name" : "Bev Isla",
+      "description" : "Bev has been one of the top professional dog walkers in the Humber Bay area for 4 years now. So who better to join forces with than someone who has already proven themselves in the neighborhood and brings with her her tremendous reputation for  quality and dedication. Welcome to the team Bev!",
+      "avatar" : "BevIsla.jpeg"
+    },
+    {
+      "name" : "Claudia Gieruszynska",
+      "description" : "Claudia joined the team in June of 2019. She has many years of  experience with dogs, having worked as an Autism Dog Services Puppy raiser. Recently she adopted her own pup, Maverick, from a shelter. Mav also doubles as her school project, as she is currently training to become a certified dog trainer.",
+      "avatar" : "ClaudiaGieruszynska.jpg"
+    },
+    {
+      "name" : "Louise Gaynor",
+      "description" : "Louise has been with us since Feb. 2019. Thanks to her tremendous experience with dogs, she has helped us grow and improve in a short time. She is the proud owner of Quizzer, an 11 year old Border Collie, who was a bit of a pro himself, having participated in numerous agility competitions throughout North America! She also has years of experience working at Border Collie Rescue Ontario, doing grooming, and working at a doggie daycare.",
+      "avatar" : "LouiseGaynor.jpg"
+    }
+  ]
+}
+
+

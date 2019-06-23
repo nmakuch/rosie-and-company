@@ -1,0 +1,19 @@
+baseURL : https://rosie-and-company.makuchnick.now.sh/
+languageCode : en-us
+title : Rosie and Company
+theme : hugo-sodium-theme
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  social:
+    facebook: uicardio
+    instagram: uicardio
+    twitter: uicardio
+
+  scripts:
+    googleanalytics: 
+    disqus: 
+    
