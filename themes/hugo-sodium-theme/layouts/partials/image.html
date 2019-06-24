@@ -1,52 +1,22 @@
 {{ $cover := .Site.Data.cover }}
 
-<section class="cover p-lg-5 p-md-5 p-3">
-  <div class="container h-100">
-    <div class="d-flex h-100 align-items-center">
-      <div class="">
-          <h1>{{ $cover.title }}</h1>
-          <p>{{ $cover.description }}</p>
-          <p>{{ $cover.sub }}</p>
-          <a href="{{ $cover.button.href }}" class="btn btn-outline-light">{{ $cover.button.text }}</a>      
-      </div>
-      <!-- <div class="col-12 col-lg-6 col-md-6 col-sm-12"> -->
-          <!-- <img src="/images/cover.svg" class="float-right" style="max-width: 100%"> -->
-      <!-- </div> -->
-    </div>
-    
+<section class="image p-lg-5 p-md-5 p-3">
+  <div class="container h-100">    
   </div>
 </section>
 
 <style type="text/css">
-  .cover{
-    margin-top: -80px;
-    height: 600px;
-    background: rgba(0,0,0,0.6);
-    background-image: url('{{.Site.BaseURL}}images/covers/{{$cover.image}}');
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)),  url('{{.Site.BaseURL}}images/covers/{{$cover.image}}');
+  .image{
+    margin-top: 100px;
+    height: 450px;
+    background: rgba(0,0,0,0.3);
+    background-image: url('{{.Site.BaseURL}}images/covers/{{$cover.image2}}');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)),  url('{{.Site.BaseURL}}images/covers/{{$cover.image2}}');
         background-position: center;
         background-attachment: fixed;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     /*animation: breath 25s ease-in-out infinite;*/
-  }
-
-  h1 {
-    margin-bottom: 1rem;
-    color: white;
-  }
-
-  p{
-    color: lightgray;
-    font-size: 20px;
-  }
-
-  p:first-of-type {
-    margin-bottom: 0.5rem;
-  }
-
-  p:last-of-type {
-    margin-bottom: 2rem;
   }
 
   @keyframes breath {
@@ -54,7 +24,5 @@
   50% { background-size: 140% auto; }
   100% { background-size: 100% auto; }
 }
-  .cover .sub-heading{
-    opacity: .6;
-  } 
+
 </style>
