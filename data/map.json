@@ -1,5 +1,6 @@
 {
   "serviceArea": "service-area.png",
   "title" : "Our Service Area",
-  "description" : "We serve Humber Bay / Mystic Pointe / South Etobicoke"
+  "description" : "We serve Humber Bay / Mystic Pointe / South Etobicoke",
+  "subDescription" : "*Get in contact with us, we may be able to accomodate clients outside this area.*"
 }

@@ -1,8 +1,9 @@
 {
-  "title" : "Welcome to Rosie and Company!",
+  "title" : "Rosie and Company - Toronto Dog Walking Service",
   "description" : "Serving Humber Bay / Mystic Pointe / South Etobicoke",
   "sub" : "Certified / Bonded / Insured",
-  "image" : "cover-photo.jpg",
+  "image" : "cover-photo2.jpg",
+  "image2" : "cover-photo3.jpg",
   "button" : {
     "text" : "Send us a message",
     "href" : "/#contact"

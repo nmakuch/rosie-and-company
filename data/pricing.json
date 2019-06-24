@@ -10,7 +10,7 @@
         "Chance of being private",
         "Chance of being in a group",
         "Limited to 3 dogs at a time",
-        "Logged walk report"
+        "GPS walk report"
       ]
     },
     {
@@ -20,7 +20,7 @@
         "30 minute session",
         "1:1 walking with your dog",
         "For dogs that can't be walked in groups",
-        "Logged walk report"
+        "GPS walk report"
       ]
     },
     {
@@ -30,7 +30,7 @@
         "45 minute session",
         "1:1 walking with your dog",
         "For dogs that can't be walked in groups",
-        "Logged walk report"
+        "GPS walk report"
       ]
     },
     {
@@ -40,7 +40,7 @@
         "45 minute session",
         "Other dogs will be present",
         "Limited to 3 dogs at a time",
-        "Logged walk report"
+        "GPS walk report"
       ]
     },
     {
@@ -52,20 +52,17 @@
         "Chance of being private",
         "Chance of being in a group",
         "Limited to 3 dogs at a time",
-        "Logged walk report"
+        "GPS walk report"
       ]
     },
     {
       "title" : "Pee Break/ Feeding",
       "price" : "$12",
       "features" : [
-        "Placeholder details",
-        "Placeholder details",
-        "Placeholder details",
-        "Placeholder details",
-        "Placeholder details",
-        "Placeholder details"
-
+        "Ideal for puppies",
+        "Ideal for older dogs",
+        "Your dog will be fed",
+        "We can administer medication if needed"
       ]
     }
   ]
