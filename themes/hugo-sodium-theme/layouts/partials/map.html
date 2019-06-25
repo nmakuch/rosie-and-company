@@ -6,7 +6,7 @@
 
 <section id="map" class="text-center py-5">
   <div class="container">
-      <h2 class="pt-5 h2">{{ $title }}</h2>
+      <h2 class="mapheader pt-5 h2">{{ $title }}</h2>
       <p class="text-muted" style="margin-bottom: 2rem;">{{ $description }}</p>
       <p class="text-muted" style="margin-bottom: 4rem; font-size: 18px; font-style: italic">{{ $subDescription }}</p>
     <div class="row justify-content-md-center">
@@ -16,3 +16,18 @@
     </div>
   </div>
 </section>
+
+<style>
+ 
+ @media only screen and (max-width: 800px) {
+  .mapheader {
+    margin-top: -8rem;
+  }
+  }
+
+  @media only screen and (max-width: 600px) {
+  .mapheader {
+    margin-top: -14rem;
+  }
+  }
+</style>

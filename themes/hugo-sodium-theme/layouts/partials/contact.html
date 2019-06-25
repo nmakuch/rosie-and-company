@@ -4,7 +4,7 @@
   <div class="container">
     <center>
       <h2 class="h2">Contact Us</h2>
-      <p class="text-muted pb-4">{{ $contact.subheader }}</p>
+      <p class="text-muted pb-3">{{ $contact.subheader }}</p>
     </center>
 
     <form
@@ -13,20 +13,20 @@
     >
       <div class="row justify-content-md-center">
         <div class="col-12 col-lg-6 col-md-12">
-				<div style="width: 100%; display: flex;">
-						{{ if $contact.email }}
-						<div class="mb-5" style="margin-right: 3rem;">
-						  <div class="text-uppercase text-muted">Email</div>
-						  <div>{{ $contact.email }}</div>
-						</div>
-						{{ end }}
-						{{ if $contact.phone }}
-						<div class="mb-3">
-						  <div class="text-uppercase text-muted">Phone</div>
-						  <div>{{ $contact.phone }}</div>
-						</div>
-						{{ end }}
-					  </div>
+          <div class="personal-info">
+            {{ if $contact.email }}
+            <div class="email mb-5" style="margin-right: 3rem;">
+              <div class="text-uppercase text-muted">Email</div>
+              <div>{{ $contact.email }}</div>
+            </div>
+            {{ end }}
+            {{ if $contact.phone }}
+            <div class="phone mb-3">
+              <div class="text-uppercase text-muted">Phone</div>
+              <div>{{ $contact.phone }}</div>
+            </div>
+            {{ end }}
+          </div>
           <div class="row">
             <div class="col-12 col-lg-6 col-md-6">
               <div class="form-group">
@@ -72,3 +72,24 @@
     </form>
   </div>
 </section>
+
+<style type="text/css">
+  .personal-info {
+    width: 100%;
+    display: flex;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .personal-info {
+      display: block;
+    }
+
+	.email {
+		margin-bottom: 1rem !important;
+	}
+
+	.phone {
+		margin-bottom: 3rem !important;
+	}
+  }
+</style>
