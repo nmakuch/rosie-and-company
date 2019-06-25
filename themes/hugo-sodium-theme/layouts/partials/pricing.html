@@ -2,19 +2,7 @@
 <section id="pricing" class="py-5">
   <div class="container text-center">
     <h2 class="pt-5 h2">{{ $pricing.title }}</h2>
-    <p class="text-muted mb-5">{{ $pricing.description }}</p>
-    <p class="text-muted  mb-0" style="font-size: 12pt">
-      <strong>*Sunday premium:</strong> $5 surcharge to all services
-    </p>
-    <p class="text-muted  mb-0" style="font-size: 12pt">
-      <strong>*Late cancellation charge:</strong> $5 when a service is cancelled with less than 2
-      hours notice.
-    </p>
-    <p class="text-muted" style="font-size: 12pt; margin-bottom: 5rem;">
-      <strong>*Late booking charge:</strong> $5 surcharge to bookings made after 8 am on the day
-      of.
-    </p>
-  </div>
+    <p class="text-muted pb-5">{{ $pricing.description }}</p>
     <div class="row justify-content-md-center">
       {{ range $pricing.content }}
       <div class="col-12 col-lg-3 col-md-6 col-sm-12 mb-4">
@@ -33,6 +21,17 @@
       </div>
       {{ end }}
     </div>
+    <ul id="surcharges">
+      <li><strong>*Sunday premium:</strong> $5 surcharge to all services</li>
+      <li>
+        <strong>*Late cancellation charge:</strong> $5 when a service is
+        cancelled with less than 2 hours notice.
+      </li>
+      <li>
+        <strong>*Late booking charge:</strong> $5 surcharge to bookings made
+        after 8 am on the day of.
+      </li>
+    </ul>
   </div>
 </section>
 
@@ -48,4 +47,27 @@
       #ffffff 100%
     );
   }
+
+  #surcharges {
+    list-style: none;
+    margin-top: 2rem;
+    text-align: left;
+    color: white;
+    font-size: 10pt;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+
+  @media only screen and (max-width: 960px) {
+    #surcharges {
+    margin-bottom: 10rem;
+  }
+  }
+
+  @media only screen and (max-width: 800px) {
+    #surcharges {
+    margin-bottom: 20rem;
+  }
+  }
+
 </style>
